@@ -17,6 +17,13 @@ a.hover {
 }
 
 /* Main Layout */
+/* new code */
+header{background: lightyellow}
+
+footer{
+    background: lightblue;
+    /*margin: 5px;*/
+}
 
 .simpleStore {
     margin-top: 20px;
