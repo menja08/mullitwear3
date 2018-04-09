@@ -20,10 +20,11 @@ a.hover {
 /* new code */
 header{
     background: #f6f5ec;
-    height: 25px;
+    /*height: 25px;*/
 
 }
-header> a #logo img { height: 25pt;}
+header img {height: 100px}
+/*header> a #logo img { height: 25pt;}*/
 
 footer{
     background: #000000;
