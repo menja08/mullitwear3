@@ -1,0 +1,50 @@
+{
+	"products" : [
+		{
+			"name" : "",
+			"price" : "2500.00",
+			"options" : [],
+			"image" : "./images/T-shirts/Umbra01.png",
+			"description" : "Køb en T-shirt til et godt formål"
+		},
+		{
+			"name" : "",
+			"price" : "2500.00",
+			"options" : [],
+			"image" : "./images/T-shirts/Umbra02.png",
+			"description" : "Køb en T-shirt til et godt formål",
+			"soldOut" : false
+		},
+		{
+			"name" : "",
+			"price" : "2500.00",
+			"options" : [],
+			"image" : "./images/T-shirts/Umbra03.png",
+			"description" : "Køb en T-shirt til et godt formål"
+		},
+
+        {
+            "name" : "",
+          "price" : "2500.00",
+          "options" : [],
+          "image" : "./images/T-shirts/Umbra04.png",
+          "description" : "Polygon effekten symbolisere hvor mange forskellige veje der er til og i hjertet. Vi har alle brug for et holdepunkt og hvis det tager afsæt i hjertet, kan det ikke slå fejl"
+        },
+
+      {
+        "name" : "",
+        "price" : "2500.00",
+        "options" : [],
+        "image" : "./images/T-shirts/Umbra05.png",
+        "description" : "Polygon effekten symbolisere hvor mange forskellige veje der er til og i hjertet. Vi har alle brug for et holdepunkt og hvis det tager afsæt i hjertet, kan det ikke slå fejl"
+      },
+
+      {
+        "name" : "",
+        "price" : "2500.00",
+        "options" : [],
+        "image" : "./images/T-shirts/Umbra06.png",
+        "description" : "Polygon effekten symbolisere hvor mange forskellige veje der er til og i hjertet. Vi har alle brug for et holdepunkt og hvis det tager afsæt i hjertet, kan det ikke slå fejl"
+      }
+	]
+}
