@@ -29,10 +29,38 @@ header img {height: 100px}
 footer{
     /*background: #000000;*/
     background: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas:
+     "left middle right";
 }
+.left {
+    grid-area: left;
+    /*background: lightblue;*/
+}
+.left1 {
+    grid-area: left1;
+}
+.left2 {
+    grid-area: left2;
+}
+
+.middle {
+    grid-area: middle;
+}
+
+.right {
+    grid-area: right;
+}
+
 footer img {
     height: 25px;
     width: 25px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .simpleStore {
@@ -109,6 +137,7 @@ footer img {
 .item_description {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    white-space: pre-wrap;
 }
 
 .headerRow {
