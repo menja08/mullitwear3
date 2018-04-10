@@ -37,6 +37,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
+
 </head>
 <body>
 
@@ -61,12 +62,31 @@
         <div class="simpleStore_cart_container"></div>
     </div>
     <footer>
-        <a href="https://www.facebook.com/mullitwear/" target="_blank">
-            <img src="./png/facebook.png" height="25px" width="25px" alt="Følg vores kampagne på facebook">
-        </a>&nbsp;
-        <a href="https://www.instagram.com/mullitwear/" target="_blank">
-            <img src="./png/instagram.png" height="25px" width="25px" alt="Følg vores kampagne på instagram">
-        </a>
+        <section class="left">
+            <p>
+                Mullitwear på de social medie:
+            </p>
+            <a href="https://www.facebook.com/mullitwear/" target="_blank" >
+                <img src="./png/facebook.png" alt="Følg vores kampagne på facebook" class="">
+            </a>
+            <a href="https://www.instagram.com/mullitwear/" target="_blank" >
+                <img src="./png/instagram.png" alt="Følg vores kampagne på instagram" class="">
+            </a>
+        </section>
+
+        <section class="middle">
+            Kontakt Os<br>
+            Vi er:<br>
+            <a href="https://www.facebook.com/ivan.oteekak">Ivan</a><br>
+            <a href="https://www.facebook.com/Thor1210">Thor</a><br>
+            <a href="https://www.facebook.com/louise.s.rasmussen.54">Louise</a><br>
+            og denne webshop er vores bidrag til mødrehælpenskampagnet.
+        </section>
+
+        <section class="right">
+            <a href="https://moedrehjaelpen.dk/">Kontakt Mødrehjælpen</a> og læs mere om deres kampagnet
+            <a href="https://moedrehjaelpen.dk/holdepunkt/forside/">holdepunkt</a>
+        </section>
     </footer>
     <!-- Templates
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -75,7 +95,7 @@
     <script id="products-template" type="x-template">
         <div class="column">
             <div class="simpleCart_shelfItem">
-                <img src="" class="item_thumb simpleStore_getDetail"/>
+                <img src="" class="item_thumb simpleStore_getDetail"/><!--remove item_thumb to solve resizing issue-->
                 <div class="row">
                     <h5 class="item_name"></h5>
                     <div class="simpleStore_getDetail_container">
