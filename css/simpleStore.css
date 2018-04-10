@@ -6,6 +6,7 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
+*img {max-width: 100%}
 select {
     display: block;
     float: left;
@@ -20,10 +21,10 @@ a.hover {
 /* new code */
 header{
     background: #f6f5ec;
-    /*height: 25px;*/
+    padding: 15px;
 
 }
-header img {height: 100px}
+header img {  height: 200px}
 /*header> a #logo img { height: 25pt;}*/
 
 footer{
@@ -117,7 +118,6 @@ a {
 }
 
 .item_thumb, .detail_thumb {
-    height: 150px;
     display: block;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -386,5 +386,13 @@ p.error_text {
     /* Better mobile support for cart */
     .item-decrement, .item-increment, .item-total {
         display: none !important;
+    }
+    @media (min-width: 550px) {
+        .item_thumb, .detail_thumb {
+            height: 150px;
+        }
+        .simpleCart_shelfItem {
+           height: 100%;
+        }
     }
 }
