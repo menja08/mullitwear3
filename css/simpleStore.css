@@ -104,6 +104,7 @@ footer{
 .item_description {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    white-space: pre-wrap;
 }
 
 .headerRow {
